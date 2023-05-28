@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Rubik', sans-serif;
-  background-color: #EEF0F4;
+  background-color: #f4e7d6;
   user-select: none;
 }
 
@@ -14,16 +14,16 @@ html, body {
 }
 
 img {
-  width: 150px;
-  margin: 10px auto;
+  width: 225px;
+  margin: 5px auto;
 }
 
 input {
   color: #432000;
-  background-color: #DCE1EB;
+  background-color: #ffd7d0;
   padding: 15px;
   margin: 5px 0;
-  border: 0;
+  border: 1px solid #bb412e;
   border-radius: 8px;
   font-size: 20px;
   text-align: center;
@@ -32,7 +32,7 @@ input {
 
 button {
   color: #FDFDFD;
-  background-color: #AC485A;
+  background-color: #bb412e;
   padding: 15px;
   margin: 5px 0;
   border: 0;
@@ -48,7 +48,7 @@ button:not(:disabled):hover {
 }
 
 button:disabled {
-  opacity: 0.7;
+  opacity: 0.8;
   cursor: not-allowed;
 }
 
@@ -62,7 +62,7 @@ ul {
 
 ul li {
   background-color: #FFFDF8;
-  color: #AC485A;
+  color: #58121f;
   font-size: 18px;
   padding: 15px;
   border-radius: 8px;
@@ -72,7 +72,7 @@ ul li {
 }
 
 ul li:hover {
-  background-color: #FFECC7;
+  background-color: #e6c59f;
   cursor: pointer;
 }
 
